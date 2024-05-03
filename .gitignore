@@ -1,0 +1,6 @@
+.env
+.cache
+*.txt
+*.json
+.venv
+.idea
