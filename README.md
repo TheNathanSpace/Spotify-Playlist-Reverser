@@ -5,12 +5,15 @@ associated metadata (when the song was added, and by who) remains.
 
 ## Installation
 
-Clone/download the repo.
+1. Clone/download the repo.
+2. Install Python dependencies: `pip install -r requirements.txt`
+3. Create a Spotify developer app with redirect URI `http://localhost:9090`.
+4. Create a `.env` file on the same level as `reverse.py` with the contents (from the created Spotify app):
 
-Install Python dependencies: `pip install -r requirements.txt`
-
-The main dependency is `spotipy==2.23.0` so you could also probably just do that.
-
+```properties
+CLIENT_ID=a97ga979874a29498h298h4aah2
+CLIENT_SECRET=af98h8498428h2aha48h
+```
 ## Usage
 
 `python reverse.py`
